@@ -72,13 +72,22 @@
 
         .banner-image-portfolio {
             background: url("../img/under-const.jpeg") no-repeat;
-            background-position: center;
+            background-position: left center;
             min-height: 400px;
             width: 100%;
             text-align: center;
         }
 
-        .banner-image-about h2, .banner-image-portfolio h2{
+        .image-text {
+            color: white;
+            font-size: 45px;
+            font-weight: bold;
+            padding-top: 150px;
+            text-shadow: .5px .5px .5px white;
+        }
+
+        .banner-image-about h2,
+        .banner-image-portfolio h2 {
             color: white;
             font-size: 45px;
             font-weight: bold;
@@ -98,7 +107,7 @@
         }
 
         .about p {
-            text-indent: 2.0em; 
+            text-indent: 2.0em;
         }
 
         .contact {
@@ -138,7 +147,6 @@
         .gallery img {
             width: 100%;
             height: auto;
-
         }
 
         .image-desc {
@@ -185,16 +193,15 @@
         .connect ul li img {
             width: 75px;
         }
-
         /* --- FORM STYLING --- */
 
-        input, textarea {
+        input,
+        textarea {
             font-size: 25px;
             width: 100%;
             margin-bottom: 10px;
             box-sizing: border-box;
         }
-
         /* --- FOOTER ---*/
 
         footer {
@@ -213,7 +220,7 @@
             padding-top: 85px;
         }
         /* --- MEDIA QUERIES --- */
-/* 
+        /* 
         @media(max-width: 1000px) {
             .about,
             .connect-container {
